@@ -2,3 +2,4 @@ virtualenv
 *.xlsx
 *.xlsx#
 .vscode
+__pycache__

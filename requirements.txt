@@ -1,0 +1,11 @@
+astroid==2.6.6
+autopep8==1.5.7
+et-xmlfile==1.1.0
+isort==5.9.3
+lazy-object-proxy==1.6.0
+mccabe==0.6.1
+openpyxl==3.0.7
+pycodestyle==2.7.0
+pylint==2.9.6
+toml==0.10.2
+wrapt==1.12.1
