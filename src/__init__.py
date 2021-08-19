@@ -7,10 +7,10 @@ def init():
     email_content = get_template('promo_template')
     s = smtplib.SMTP('smtp.gmail.com: 587')
     s.starttls()
-    password = "Miami2021"
+    password = "*******"
 
     # Login Credentials for sending the mail
-    s.login('pocketvzla@gmail.com', password)
+    s.login('***********', password)
 
     workbook = load_workbook(filename="customers_export_1.xlsx")
     sheet = workbook.active
@@ -25,7 +25,7 @@ def init():
     for to in remitents:
         msg = message.Message()
         msg['Subject'] = 'Promocion - Codigo De Descuento!'
-        msg['From'] = 'pocketvzla@gmail.com'
+        msg['From'] = '**********'
         msg.add_header('Content-Type', 'text/html')
         msg.set_payload(email_content)
         msg['To'] = to
